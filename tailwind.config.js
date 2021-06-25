@@ -8,9 +8,16 @@ module.exports = {
         graysec: '#D9D9D9',
         grayterc: '#ECECEC',
         graycuart: '#FCFCFC',
+        headerfont: '#8B8B8B'
       },
       fontFamily: {
         roboto: 'Roboto, Helvetica, sans-serif'
+      },
+      spacing: {
+        '128' : '32rem',
+        'header' : '12%',
+        'subheader' : '10%',
+        'main' : '78%'
       }
     },
   },

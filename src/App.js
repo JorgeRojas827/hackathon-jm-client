@@ -1,21 +1,20 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Auth } from './pages/Auth';
 import { Dashboard } from './pages/Dashboard';
+import './App.css';
 
 function App() {
   return (
-    <div className="App w-screen font-roboto h-screen bg-gray-200">
+    <div className="w-screen font-roboto h-screen">
       <Router>
         <Switch>
-          <Route path = "/auth">
+          <Route exact path = "/auth">
             <Auth />
           </Route>
-          <Route path = "/dashboard">
+          <Route exact path = "/dashboard">
             <Dashboard />
           </Route>
         </Switch>
-        <Redirect to = "/auth" />
       </Router>
     </div>
   );
