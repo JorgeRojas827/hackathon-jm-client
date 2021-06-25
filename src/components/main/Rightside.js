@@ -15,7 +15,7 @@ export const Rightside = () => {
     }, [])
 
     const getProducts = async () => {
-        const res = await fetch("https://api.jsonbin.io/b/60d554888a4cd025b7a53206/6");
+        const res = await fetch("https://api.jsonbin.io/b/60d554888a4cd025b7a53206/7");
         const data = await res.json();
         setProducts(data.productos)
     }
@@ -25,11 +25,12 @@ export const Rightside = () => {
             {
                 products.map((e, id) => {
                     return (
-                        <ProductCard handleClick = { (id) => addDetails({
-                            cant: id.detail,
+                        <ProductCard handleClick = { () => addDetails({
+                            id: e.id,
+                            cant: 1,
                             nombre: e.nombre,
                             precio: e.precio
-                        }) } name = { e.nombre } img = { e.img }  key = { id } />
+                        })} name = { e.nombre } img = { e.img }  key = { id } />
                     )
                 })
             }

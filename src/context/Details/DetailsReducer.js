@@ -1,17 +1,14 @@
-
 export const DetailsReducer = (state, { type, payload }) => {
-
-    switch ( type ) {
-        case 'ADD_DETAILS':
-            return {
-                ...state,
-                cant: payload.cant,
-                nombre: payload.nombre,
-                precio: payload.precio
-            };
-
-        default:
-            return state;
-    }
-
+  switch (type) {
+    case "ADD_DETAILS": 
+        return {
+          details: [...state.details, payload]
+        };
+    // case "ADD_DETAILS_CANT": 
+    //     return {
+    //       details: [...state.details, payload.cant ++]
+    //     };
+    default: 
+        return state;
+  }
 };
