@@ -1,0 +1,59 @@
+{
+    "productos": [
+      {
+        "nombre": "Camisa",
+        "img": "/static/images/cards/1.png",
+        "precio" : 2.00
+      },
+      {
+        "nombre": "Cobertura de almohada",
+        "img": "/static/images/cards/2.png",
+        "precio" : 2.00
+      },
+      {
+        "nombre": "Cobertura de sobrecama",
+        "img": "/static/images/cards/3.png",
+        "precio" : 5.50
+      },
+      {
+        "nombre": "Mantel",
+        "img": "/static/images/cards/4.png",
+        "precio" : 5.00
+      },
+      {
+        "nombre": "Polo",
+        "img": "/static/images/cards/5.png",
+        "precio" : 2.50
+      },
+      {
+        "nombre": "Ramera / Camiseta",
+        "img": "/static/images/cards/6.png",
+        "precio" : 2.00
+      },
+      {
+        "nombre": "Sábanas",
+        "img": "/static/images/cards/7.png",
+        "precio" : 4.00
+      },
+      {
+        "nombre": "Sobrecama",
+        "img": "/static/images/cards/8.png",
+        "precio" : 12.00
+      },
+      {
+        "nombre": "Sobrecama de pluma",
+        "img": "/static/images/cards/9.png",
+        "precio" : 16.00
+      },
+      {
+        "nombre": "Toalla grande",
+        "img": "/static/images/cards/10.png",
+        "precio" : 3.50
+      },
+      {
+        "nombre": "Toalla pequeña",
+        "img": "/static/images/cards/11.png",
+        "precio" : 1.50
+      }
+    ]
+  }

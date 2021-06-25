@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Auth = () => {
     return (
-        <div className = "">
+        <div className = "bg-gray-800">
             Auth Page
         </div>
     )

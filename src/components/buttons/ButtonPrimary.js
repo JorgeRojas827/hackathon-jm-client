@@ -8,9 +8,10 @@ export const ButtonPrimary = ({ value, selected }) => {
                 value= { value }
                 style = {
                     selected && {
-
+                    backgroundColor: '#3AB8FF',
+                    color: 'white' 
                 }}
-                className = "py-1 px-20 rounded cursor-pointer bg-primary text-white font-medium" />
+                className = "py-2 px-20 rounded-md cursor-pointer bg-transparent text-black font-medium" />
         </>
     )
 }
